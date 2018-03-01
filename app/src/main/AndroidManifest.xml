@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Maternity" />
+        <activity android:name=".Harrass" />
+        <activity android:name=".Equal" />
+        <activity android:name=".Factories" />
+        <activity android:name=".Violence" />
+        <activity android:name=".Work"></activity>
     </application>
 
 </manifest>
