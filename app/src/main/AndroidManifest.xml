@@ -21,7 +21,8 @@
         <activity android:name=".Equal" />
         <activity android:name=".Factories" />
         <activity android:name=".Violence" />
-        <activity android:name=".Work"></activity>
+        <activity android:name=".Work" />
+        <activity android:name=".Quiz"></activity>
     </application>
 
 </manifest>
