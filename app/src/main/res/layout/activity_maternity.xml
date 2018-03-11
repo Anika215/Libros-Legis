@@ -1,20 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.divya.libroslegis.Maternity">
 
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="30dp"
+                            android:textSize="24sp"
+                            android:paddingBottom="10dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:text="The Maternity Benefits Act" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="35dp"
+                            android:paddingRight="35dp"
+                            android:paddingBottom="10dp"
+                            android:textSize="15sp"
+                            android:typeface="sans"
+                            android:text="Every woman shall be entitled to, and her employer shall be liable for, the payment of maternity benefit, which is the amount payable to her at the rate of the average daily wage for the period of her actual absence.
+"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:paddingLeft="30dp"
+                            android:paddingRight="30dp"
+                            android:paddingBottom="10dp"
+                            android:text="Period For Which Benefit Allowed
+"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="18sp" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            android:paddingLeft="35dp"
+                            android:paddingBottom="10dp"
+                            android:paddingRight="35dp"
+                            android:text="The maximum period for which any woman shall be entitled to maternity benefit shall be 12 weeks in all whether taken before or after childbirth. However she cannot take more than six weeks before her expected delivery.
+"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:paddingLeft="30dp"
+                            android:paddingRight="30dp"
+                            android:paddingBottom="10dp"
+                            android:text="Who is Entitled to Maternity Benefit"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            android:paddingLeft="35dp"
+                            android:paddingBottom="10dp"
+                            android:paddingRight="35dp"
+                            android:text="1) Every woman employee, whether employed directly or through a contractor, who has actually worked in the establishment for a period of at least 80 days during the 12 months immediately preceding the date of her expected delivery, is entitled to receive maternity benefit.
+\n\n2) The qualifying period of 80 days shall not apply to a woman who has immigrated into the State of Assam and was pregnant at the time of immigration.
+\n\n3) For calculating the number of days on which a woman has actually worked during the preceding 12 months, the days on which she has been laid off or was on holidays with wages shall also be counted.
+\n\n4) There is neither a wage ceiling for coverage under the Act nor there is any restriction as regards the type of work a woman is engaged in.
+"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:paddingLeft="30dp"
+                            android:paddingRight="30dp"
+                            android:paddingBottom="10dp"
+                            android:text="Penalties For Contravention of Act by Employer"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="18sp" />
 
 
-        <TextView
-            android:id="@+id/info_text1"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="@string/maternity"
-            android:textSize="18sp"
-            android:padding="50dp"
-            android:paddingBottom="20dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            android:paddingLeft="35dp"
+                            android:paddingRight="35dp"
+                            android:paddingBottom="10dp"
+                            android:text="For failure to pay maternity benefit as as provided for under the Act, the penalty is imprisonment upto one year and fine upto Rs. 5000. The minimum being 3 months and Rs. 2000 respectively.
 
-</LinearLayout>
+\nFor dismissal or discharge of a woman as provided for under the Act, the penalty is imprisonment upto one year and fine upto Rs. 5000. The minimum being 3 months and Rs.2000 respectively.
+
+\n"/>
+                </LinearLayout>
+
+        </ScrollView>
+</RelativeLayout>

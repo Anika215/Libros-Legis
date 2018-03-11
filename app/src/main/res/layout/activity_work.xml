@@ -6,4 +6,44 @@
     android:layout_height="match_parent"
     tools:context="com.example.divya.libroslegis.Work">
 
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:textSize="24sp"
+                android:paddingBottom="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="National Commission for Women Act" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="35dp"
+                android:paddingRight="35dp"
+                android:paddingBottom="10dp"
+                android:textSize="15sp"
+                android:typeface="sans"
+                android:text="The National Commission for Women was set up as statutory body in January 1992 under the National Commission for Women Act, 1990 to :
+
+\n\n review the Constitutional and Legal safeguards for women
+\n\n recommend remedial legislative measures
+\n\n facilitate redressal of grievances and
+\n\n advise the Government on all policy matters affecting women"
+                tools:ignore="HardcodedText" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
 </android.support.constraint.ConstraintLayout>

@@ -6,4 +6,50 @@
     android:layout_height="match_parent"
     tools:context="com.example.divya.libroslegis.Factories">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:textSize="24sp"
+                android:paddingBottom="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Equal Remuneration Act" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="35dp"
+                android:paddingRight="35dp"
+                android:paddingBottom="10dp"
+                android:textSize="15sp"
+                android:typeface="sans"
+                android:text="The Act is a Central Legislation and applies to the whole of India.
+
+\n\nThe objective of the Act is to provide for protection against discrimination of women workers on the ground of sex, about the payment of equal remuneration in the matter of employment.
+Restricting the employer to create terms and conditions in a contract of service or work of labor contrary to equal pay for equal work doctrine and the provisions of Equal Remuneration Act.
+
+\n\nThe Act doesn’t make a distinction like employment or the period of employment and applies to all workers even if engaged only for a day or few days.
+\nNo overriding effect is given to any agreement, settlement or contract to the provisions of the Equal Remuneration Act.
+
+\n\nAny settlement or any agreement with the employee that is detrimental to the employee isn’t allowed.
+
+\n\nThe Ministry of Labour and The Central Advisory Committee are responsible for enforcing this Act.
+
+\n\nMeaning of equality of work: The equality of work is not based solely on the designation or the nature of work but also on factors like qualifications, responsibilities, reliabilities, experience, confidentiality, functional need and requirements commensurate with the position in the hierarchy are equally relevant.
+When the employer doesn’t comply with the provisions of the act, he will be liable to pay fine, imprisonment, or both.
+"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+    </ScrollView>
+
 </android.support.constraint.ConstraintLayout>

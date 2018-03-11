@@ -6,4 +6,63 @@
     android:layout_height="match_parent"
     tools:context="com.example.divya.libroslegis.Violence">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:textSize="24sp"
+                android:paddingBottom="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="The Factories Act" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="35dp"
+                android:paddingRight="35dp"
+                android:paddingBottom="10dp"
+                android:textSize="15sp"
+                android:typeface="sans"
+                android:text="The Factories Act is a legislation to secure to the workers employed in a factory, health, safety, welfare, proper working hours, leave and other benefits. The Factories Act aims at protecting workers employed in factories from unfair exploitation by their employers. The Factories Act also has exclusive provisions for women workers.
+"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingBottom="10dp"
+                android:text="Privisions for women"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="35dp"
+                android:paddingRight="35dp"
+                android:paddingBottom="10dp"
+                android:textSize="15sp"
+                android:typeface="sans"
+                android:text="Prohibition of employment of women during night hours.
+\n\nProhibition og work in hazardous occupations
+\n\nFixation of daily hours of work at nine
+\n\nFixation of maximum permissible load
+\n\nProvision for creche
+\n\nProhibition of employement of women in pressing cotton where a cotton opener is at work"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+    </ScrollView>
+
 </android.support.constraint.ConstraintLayout>

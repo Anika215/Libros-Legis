@@ -5,5 +5,81 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.divya.libroslegis.Harrass">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="23dp"
+            android:textSize="24sp"
+            android:paddingBottom="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="The Sexual Harrassment Act"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:paddingBottom="10dp"
+            android:textSize="15sp"
+            android:typeface="sans"
+            android:text="All employers or persons in charge of work place whether in the public or private sector should take appropriate steps to prevent sexual harassment."/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="10dp"
+            android:text="What should you do?"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingLeft="35dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="35dp"
+            android:text="1. Show stern resentment:
+When a woman finds the act of any man in her workplace to be offensive she must be clear and strong in her resentment. She should clearly let the other person know that his act is offensive and would not be tolerated.
+
+\n\n2. Speak out:
+The woman should discuss the issue preferably with her colleagues or some other person so that the act does not go unnoticed. This would make the offender more cautious before doing any derogatory act. Talking about the issue would encourage taking of effective steps to control the act at the initial stage itself.
+
+\n\n3. Keep Records:
+ A track record of the happenings should be kept in a document with the date, time and an account of the incident.
+
+\n\n4. Report the Complaint:
+The woman should make a formal complaint to the senior officials regarding the incident. If there is a proper complaint mechanism, the complaint should be made to the designated person and the procedure prescribed therein must be followed to report the incident of sexual harassment. If there is no such policy in the organization, the woman must report the incident to the employer or some senior official f the organization.
+
+\n\n5. Say no to situations one fears of bringing in the risk:
+A woman should clearly say no when you are asked to go places, do things, and respond to questions, or engage in situations that make her uncomfortable. She should not ignore the warnings given by other persons about particular people or social settings.
+
+\n\n6. Get oneself medically checked:
+In case of rape or physical assault the woman should go for a medical check-up and get a medical report.
+
+\n\n7. File a police complaint:
+The woman who has undergone the trauma of being sexually harassed must file a police complaint so that the acts of the culprit should not go unpunished.
+
+\n\n8. File a complaint with a women commission:
+A woman can also file a complaint with the complaints and investigation cell of the women commission that would ensure that the investigations by the police are expedited and monitored. In case the act is serious, the Commission constitutes an Inquiry Committee which makes spot enquiries, examines various witnesses, collects evidence and submits the report with recommendations. Such investigations help in providing immediate relief and justice to the victims of violence and atrocities.
+\n\n
+"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>

@@ -6,4 +6,45 @@
     android:layout_height="match_parent"
     tools:context="com.example.divya.libroslegis.Equal">
 
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:textSize="24sp"
+        android:paddingBottom="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="The Employees' State Insurance Act" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:paddingBottom="10dp"
+        android:textSize="15sp"
+        android:typeface="sans"
+        android:text="Under this Act, insures women workers get sickness benefit, disablement benefit, medical benefit and funeral expenses
+along with insured men workers. However, in addition to these benefits, insured women workers also het maternity benefit in case of contingencies
+arising out of the pregnancy, confinement, miscarriage and death.
+
+\n\n This act provided a scheme under which the employe and the employee must contribute a certain percentage of the monthly wage to the Insurance Corporation that
+runs dispensaries and hospitals in working class locaties. It facilitates both outpatient and
+in-patient care and freely dispenses medicines and covers hospitalization needs and costs.
+\n\n Employment injury, including occupational disease is compensated according to a a schedule of rates proportionate
+to the extent of injury and loss of earning capacity. "
+        tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    </ScrollView>
+
 </android.support.constraint.ConstraintLayout>
