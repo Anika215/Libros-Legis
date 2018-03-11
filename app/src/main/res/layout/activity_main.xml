@@ -11,7 +11,6 @@
     tools:context="com.example.divya.libroslegis.MainActivity"><!--on applying we get the space between the edge and the navigation tool-->
 
 
-
     <android.support.design.widget.NavigationView
         app:headerLayout="@layout/header"
         android:layout_width="wrap_content"
@@ -196,6 +195,22 @@
 
     </LinearLayout>
 </ScrollView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/quiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="100dp"
+            android:layout_marginRight="16dp"
+            app:backgroundTint="@color/colorPrimary"
+            android:src="@drawable/ic_action_quiz"/>
 
     <android.support.design.widget.CoordinatorLayout
         android:layout_width="match_parent"
@@ -206,10 +221,14 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
             android:layout_margin="16dp"
+            android:layout_marginBottom="16dp"
             app:backgroundTint="@color/colorPrimary"
             android:src="@drawable/ic_action_chat"/>
 
     </android.support.design.widget.CoordinatorLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>
 
 </android.support.v4.widget.DrawerLayout>
 

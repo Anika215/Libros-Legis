@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;
     private CardView text1, text2, text3, text4, text5, text6;
-    private FloatingActionButton fab;
+    private FloatingActionButton fab, quiz;
 
 
     @Override
@@ -50,6 +50,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, fabChatbot.class);
+                startActivity(intent);
+            }
+        });
+
+        fab = findViewById(R.id.quiz);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Quiz.class);
                 startActivity(intent);
             }
         });

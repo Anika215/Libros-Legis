@@ -58,7 +58,7 @@ public class fabChatbot extends AppCompatActivity {
                                         @Override
                                         public void run() {
                                             conversation.append(
-                                                    Html.fromHtml("<p><b>Bot:</b> " +
+                                                    Html.fromHtml("<p><b>Lawrence:</b> " +
                                                             outputText + "</p>")
                                             );
                                         }
